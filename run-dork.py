@@ -204,19 +204,19 @@ def cari(inurl , site , maxc):
         pass
 
     print ("\n"+W+43*"-")
-    print (B+"[+] "+G+"Urls (sorted) "+W+": %s Url" % (len(finallist)))
+    print (B+"[®] "+G+"Urls (sorted) "+W+": %s Url" % (len(finallist)))
     if site == '':
-	    print (B+"[+] "+G+"Site          "+W+": random")
+	    print (B+"[®] "+G+"Site          "+W+": random")
     else:
-	    print (B+"[+] "+G+"Site          "+W+": %s"%(site))
+	    print (B+"[®] "+G+"Site          "+W+": %s"%(site))
     return finallist
 
 if __name__ == "__main__":
 	print (W+43*"-")
 
-	inurl = raw_input(B+"[?]"+G+" Inurl    "+W+": ")
-	site  = raw_input(B+"[?]"+G+" Site     "+W+": ")
-	maxc  = raw_input(B+"[?]"+G+" Max Page "+W+": ")
+	inurl = raw_input(B+"[</>]"+G+" Inurl    "+W+": ")
+	site  = raw_input(B+"[</>]"+G+" Site     "+W+": ")
+	maxc  = raw_input(B+"[</>]"+G+" Max Page "+W+": ")
 
 	print (43*"-")
 	cari(inurl , site , maxc)
