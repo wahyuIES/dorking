@@ -204,11 +204,11 @@ def cari(inurl , site , maxc):
         pass
 
     print ("\n"+W+43*"-")
-    print (B+"[®] "+G+"Urls (sorted) "+W+": %s Url" % (len(finallist)))
+    print (B+"[=>] "+G+"Urls (sorted) "+W+": %s Url" % (len(finallist)))
     if site == '':
-	    print (B+"[®] "+G+"Site          "+W+": random")
+	    print (B+"[=>] "+G+"Site          "+W+": random")
     else:
-	    print (B+"[®] "+G+"Site          "+W+": %s"%(site))
+	    print (B+"[=>] "+G+"Site          "+W+": %s"%(site))
     return finallist
 
 if __name__ == "__main__":
