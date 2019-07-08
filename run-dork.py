@@ -212,17 +212,16 @@ def cari(inurl , site , maxc):
     return finallist
 
 if __name__ == "__main__":
-	
-_________________________________
-|<-- INDONESIAN ERROR SYSTEM -->|
-|__________MR.W4HYU_____________|
+
+	print (W+43*"-")
+print (w+"_________________________________
+          |<-- INDONESIAN ERROR SYSTEM -->|
+          |__________MR.W4HYU_____________|
     _______________
    /  _/____/ ___/ coder :MR.W4HYU
    / // __/ \__ \  team  :indonesian error system
  _/ // /___ ___/ /  contac:wahyu.st021@gmail.com
-/___/_____//____/  
-	print (W+43*"-")
-
+/___/_____//____/"
 	inurl = raw_input(B+"[</>]"+G+" Inurl    "+W+": ")
 	site  = raw_input(B+"[</>]"+G+" Site     "+W+": ")
 	maxc  = raw_input(B+"[</>]"+G+" Max Page "+W+": ")
